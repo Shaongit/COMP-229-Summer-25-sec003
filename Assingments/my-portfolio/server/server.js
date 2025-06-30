@@ -6,7 +6,7 @@ const contactRoutes = require('./routes/contactRoutes');
 const projectRoutes = require('./routes/projectRoutes');
 const qualificationRoutes = require('./routes/qualificationRoutes');
 const userRoutes = require('./routes/userRoutes');
-//const authRoutes = require('./routes/authRoutes');
+const authRoutes = require('./routes/authRoutes');
 
 
 
@@ -26,7 +26,7 @@ app.use('/api/contacts', contactRoutes);
 app.use('/api/projects', projectRoutes);
 app.use('/api/qualifications', qualificationRoutes);
 app.use('/api/users', userRoutes);
-//app.use('/api/auth', authRoutes);
+app.use('/api/auth', authRoutes);
 
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
