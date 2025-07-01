@@ -8,13 +8,13 @@ function About() {
       <img src={profilePic} alt="Khaleda Islam" className="about-photo" />
       <div className="about-text">
         <h2>About Me</h2>
-        <p className="center-text">
+        <p className="left-text">
           I am an experienced Software Engineer with a strong background in the information technology and services industry. I have hands-on experience as both a Software Developer and SQL Developer, specializing in building and supporting enterprise solutions across sectors like ERP, the Stock Market, and productivity tools.
         </p>
-        <p>
+        <p className="left-text">
           I am skilled in MS SQL Server, Oracle, MongoDB, C#, Java, React.js, Crystal Reports, IIS, and Object-Oriented Programming (OOP). As an Oracle Certified Professional (OCP) and Oracle Certified Associate (OCA), I bring a high level of technical expertise and commitment to quality in every project I take on.
         </p>
-        <p>
+        <p className="left-text">
           Passionate about solving complex problems and delivering impactful software solutions, I thrive in dynamic environments where innovation and collaboration drive success.
         </p>
 

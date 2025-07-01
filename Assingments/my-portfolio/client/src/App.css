@@ -4,16 +4,51 @@ body {
   padding: 0;
 }
 
-.navbar {
+/* .navbar {
   background-color: #333;
   padding: 10px;
+} */
+
+.navbar {
+  background-color: #333;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
+  padding: 0 20px;
+}
+/*
+Add this line to fix the logo size
+*/
+.nav-left {
+  display: flex;
+  align-items: center;
 }
 
+/* .nav-logo {
+  max-height: 50px;
+  width: auto;
+  margin-right: 20px;
+} */
+
 .nav-logo {
+  max-height: 50px;
+  width: auto;
+  margin-right: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-logo:hover {
+  transform: scale(1.1); /* 10% bigger */
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5); /* optional glow */
+}
+
+/* .nav-logo {
   height: 40px;
   width: auto;
   margin-right: 20px;
-}
+} */
 
 .navbar ul {
   list-style-type: none;

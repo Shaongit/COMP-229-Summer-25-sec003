@@ -5,6 +5,7 @@
   background-color: #fff;
   border-radius: 10px;
   line-height: 1.6;
+  text-align: left;;
 }
 
 .services-container h2 {
@@ -24,6 +25,12 @@
 
 .center-text {
   text-align: center;
+}
+/*
+Add this line to fiz the about text alignment issue
+*/
+.left-text {
+  text-align: left;
 }
 
 .services-info {
